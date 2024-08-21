@@ -1,0 +1,8 @@
+/*
+This program has one basic function, it starts a basic forever fuction which means the code and/or functions
+inside of it will run forever. In this forever block I have wrote a basic function to cause the led's to
+light up in a certain pattern.
+*/
+basic.forever(function () {
+    basic.showIcon(IconNames.Yes) //I chose this icon name just for hell of it really
+})
